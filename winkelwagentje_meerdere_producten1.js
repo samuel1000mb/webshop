@@ -32,6 +32,12 @@ var products = [
         price: 347.35,
         discount: 0,
         image: "img_4.jpg"
+    },
+    {
+        name: "weber master",
+        price: 279,
+        discount: 0,
+        image: "img_4.jpg"
     }
 ];
 
