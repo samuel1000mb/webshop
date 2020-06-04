@@ -1,0 +1,58 @@
+img {
+    width: 100%;
+}
+
+#gridContainer {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    grid-gap: 16px;
+    padding: 16px;
+}
+
+#producten {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    grid-gap: 16px;
+    padding: 16px;
+}
+
+.productInMandje {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+}
+
+#producten img {
+    object-fit: cover;
+    height: 250px;
+}
+
+.row {
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+.product {
+    text-align: center;
+}
+
+.bedrag {
+    font-weight: bold;
+}
+
+.discounted {
+    text-decoration: line-through;
+}
+
+.korting {
+    color: red;
+    font-weight: bold;
+}
+
+.hideDiscount {
+    display: none;
+}
